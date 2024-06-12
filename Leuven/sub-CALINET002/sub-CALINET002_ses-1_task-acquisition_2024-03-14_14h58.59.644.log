@@ -1,0 +1,844 @@
+1.5489 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.2909 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0.0039, 0.0039, 0.0039]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021E39DF4910>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021E3A31E4F0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1440,  900]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.2909 	EXP 	window1: mouseVisible = True
+7.2909 	EXP 	window1: mouseVisible = True
+7.2909 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.2909 	EXP 	window1: recordFrameIntervals = False
+7.4573 	EXP 	window1: recordFrameIntervals = True
+7.6410 	EXP 	Screen (0) actual frame rate measured at 59.89Hz
+7.6411 	EXP 	window1: recordFrameIntervals = False
+7.6846 	EXP 	Created start_instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='start_instructions_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press SPACE to continue and start the task.', units='norm', win=Window(...), wrapWidth=1)
+7.6948 	EXP 	Imported forms/english/rating_1_form.xlsx as conditions, 2 conditions, 11 params
+7.6953 	WARNING 	Form currently only formats correctly using height units. Please change the units in Experiment Settings to 'height'
+7.6953 	EXP 	Question text: Please answer the following question using the mouse:
+7.7286 	EXP 	Question text: Please rate the last electrical stimulation: 
+
+
+
+
+7.7608 	EXP 	window1: mouseVisible = True
+7.8102 	EXP 	window1: mouseVisible = True
+7.8247 	EXP 	Created form_1 = <psychopy.visual.form.Form object at 0x0000021E3AFD7C10>
+7.8346 	EXP 	window1: mouseVisible = True
+7.8805 	EXP 	Created fixation_image_ratings = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli/fixation.png', interpolate=True, mask=None, maskParams=None, name='fixation_image_ratings', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([5., 5.]), texRes=128.0, units='deg', win=Window(...))
+7.8839 	EXP 	Created rating_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='rating_image', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.75, 0.5 ]), texRes=128.0, units='norm', win=Window(...))
+7.8861 	EXP 	Created rating_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='rating_stim', opacity=1.0, ori=0.0, pos=array([0.  , 0.25]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+7.8873 	EXP 	Created prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.115, italic=False, languageStyle='LTR', name='prompt', opacity=1.0, ori=0.0, pos=array([ 0. , -0.7]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+7.8884 	EXP 	Created center = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='center', opacity=1.0, ori=0.0, pos=array([ 0. , -0.6]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+7.8888 	EXP 	Created left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='left', opacity=1.0, ori=0.0, pos=array([-0.5, -0.6]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+7.8892 	EXP 	Created right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='right', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.6]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+7.8896 	EXP 	Created top_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='top_instructions', opacity=1.0, ori=0.0, pos=array([0.  , 0.85]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+7.8990 	EXP 	window1: mouseVisible = True
+7.9002 	EXP 	window1: mouseVisible = True
+7.9071 	EXP 	Created rating_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-9, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='rating_slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.45]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7, 8]), units='norm', win=Window(...))
+7.9090 	EXP 	Created pre_instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='pre_instructions_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press SPACE to continue.', units='norm', win=Window(...), wrapWidth=1)
+7.9543 	EXP 	Created fixation_image_pre = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stimuli/fixation.png', interpolate=True, mask=None, maskParams=None, name='fixation_image_pre', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([5., 5.]), texRes=128.0, units='deg', win=Window(...))
+7.9976 	EXP 	Created fixation_image_hab = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stimuli/fixation.png', interpolate=True, mask=None, maskParams=None, name='fixation_image_hab', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([5., 5.]), texRes=128.0, units='deg', win=Window(...))
+8.0000 	EXP 	Created cs = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='cs', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([5., 5.]), texRes=128.0, units='deg', win=Window(...))
+8.0423 	EXP 	Created fixation_image_hab = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stimuli/fixation.png', interpolate=True, mask=None, maskParams=None, name='fixation_image_hab', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([5., 5.]), texRes=128.0, units='deg', win=Window(...))
+8.0451 	EXP 	Created cs = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='cs', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([5., 5.]), texRes=128.0, units='deg', win=Window(...))
+8.0893 	EXP 	Created fixation_image_post = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli/fixation.png', interpolate=True, mask=None, maskParams=None, name='fixation_image_post', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([5., 5.]), texRes=128.0, units='deg', win=Window(...))
+8.0993 	EXP 	Imported forms/english/rating_2a_form.xlsx as conditions, 2 conditions, 11 params
+8.0998 	WARNING 	Form currently only formats correctly using height units. Please change the units in Experiment Settings to 'height'
+8.0999 	EXP 	Question text: Please answer the following question using the mouse:
+8.1026 	EXP 	Question text: Did you receive electrical stimulations in the course of the last phase of the experiment? 
+
+8.1112 	EXP 	window1: mouseVisible = True
+8.1258 	EXP 	window1: mouseVisible = True
+8.1328 	EXP 	Created form_2a = <psychopy.visual.form.Form object at 0x0000021E40B0F460>
+8.1356 	EXP 	window1: mouseVisible = True
+8.1452 	EXP 	Imported forms/english/rating_2b_form.xlsx as conditions, 3 conditions, 11 params
+8.1456 	WARNING 	Form currently only formats correctly using height units. Please change the units in Experiment Settings to 'height'
+8.1457 	EXP 	Question text: Please answer the following questions using the keyboard and mouse:
+8.1548 	EXP 	Question text: Please rate the last electrical stimulation you received during the last phase of the experiment:  
+
+
+
+8.1604 	EXP 	window1: mouseVisible = True
+8.1903 	EXP 	Question text: Please try to estimate, as accurately as possible, how many electrical stimulations you received in the last phase of the experiment (numbers only)
+8.1998 	EXP 	window1: mouseVisible = True
+8.2099 	EXP 	Created form_2b = <psychopy.visual.form.Form object at 0x0000021E4110A490>
+8.2126 	EXP 	window1: mouseVisible = True
+8.2556 	EXP 	Created fixation_image_ratings = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli/fixation.png', interpolate=True, mask=None, maskParams=None, name='fixation_image_ratings', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([5., 5.]), texRes=128.0, units='deg', win=Window(...))
+8.2579 	EXP 	Created rating_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='rating_image', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), size=array([0.75, 0.5 ]), texRes=128.0, units='norm', win=Window(...))
+8.2601 	EXP 	Created rating_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='rating_stim', opacity=1.0, ori=0.0, pos=array([0.  , 0.25]), size=array([0.25, 0.25]), texRes=128.0, units='height', win=Window(...))
+8.2606 	EXP 	Created prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.115, italic=False, languageStyle='LTR', name='prompt', opacity=1.0, ori=0.0, pos=array([ 0. , -0.7]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.2610 	EXP 	Created center = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='center', opacity=1.0, ori=0.0, pos=array([ 0. , -0.6]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.2613 	EXP 	Created left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='left', opacity=1.0, ori=0.0, pos=array([-0.5, -0.6]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.2617 	EXP 	Created right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='right', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.6]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.2620 	EXP 	Created top_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='top_instructions', opacity=1.0, ori=0.0, pos=array([0.  , 0.85]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.2645 	EXP 	window1: mouseVisible = True
+8.2657 	EXP 	window1: mouseVisible = True
+8.2725 	EXP 	Created rating_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-9, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='rating_slider', opacity=None, ori=0.0, pos=array([ 0.  , -0.45]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5, 6, 7, 8]), units='norm', win=Window(...))
+8.2784 	EXP 	Created end_instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='end_instructions_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Please wait for the experimenter.', units='norm', win=Window(...), wrapWidth=1)
+8.2922 	EXP 	unnamed Form: autoLog = True
+8.2922 	EXP 	form_1: name = 'form_1'
+8.2922 	EXP 	form_1: depth = 0
+8.2922 	EXP 	form_1: fillColor = <class 'numpy.ndarray'>
+8.2922 	EXP 	form_1: borderColor = <class 'numpy.ndarray'>
+8.2922 	EXP 	form_1: fillColor = [-0.19, -0.19, -0.14]
+8.2922 	EXP 	form_1: borderColor = <class 'numpy.ndarray'>
+8.2922 	EXP 	rating_slider: autoLog = True
+8.2922 	EXP 	rating_slider: markerPos = None
+8.2922 	EXP 	rating_slider: styleTweaks = []
+8.2922 	EXP 	rating_slider: styleTweaks = []
+8.2922 	EXP 	rating_slider: styleTweaks = []
+8.2922 	EXP 	rating_slider: styleTweaks = []
+8.2922 	EXP 	rating_slider: contrast = 1.0
+8.2922 	EXP 	rating_slider: autoLog = True
+8.2922 	EXP 	unnamed Form: autoLog = True
+8.2922 	EXP 	form_2a: name = 'form_2a'
+8.2922 	EXP 	form_2a: depth = 0
+8.2922 	EXP 	form_2a: fillColor = <class 'numpy.ndarray'>
+8.2922 	EXP 	form_2a: borderColor = <class 'numpy.ndarray'>
+8.2922 	EXP 	form_2a: fillColor = [-0.19, -0.19, -0.14]
+8.2922 	EXP 	form_2a: borderColor = <class 'numpy.ndarray'>
+8.2922 	EXP 	unnamed Form: autoLog = True
+8.2922 	EXP 	form_2b: name = 'form_2b'
+8.2922 	EXP 	form_2b: depth = 0
+8.2922 	EXP 	form_2b: fillColor = <class 'numpy.ndarray'>
+8.2922 	EXP 	form_2b: borderColor = <class 'numpy.ndarray'>
+8.2922 	EXP 	form_2b: fillColor = [-0.19, -0.19, -0.14]
+8.2922 	EXP 	form_2b: borderColor = <class 'numpy.ndarray'>
+8.2922 	EXP 	rating_slider: autoLog = True
+8.2922 	EXP 	rating_slider: markerPos = None
+8.2922 	EXP 	rating_slider: styleTweaks = []
+8.2922 	EXP 	rating_slider: styleTweaks = []
+8.2922 	EXP 	rating_slider: styleTweaks = []
+8.2922 	EXP 	rating_slider: styleTweaks = []
+8.2922 	EXP 	rating_slider: contrast = 1.0
+8.2922 	EXP 	rating_slider: autoLog = True
+8.2922 	EXP 	start_instructions_text: autoDraw = True
+69.3918 	DATA 	Keypress: space
+69.4247 	EXP 	start_instructions_text: autoDraw = False
+69.4247 	EXP 	form_1: autoDraw = True
+75.4808 	DATA 	Mouse: Left button down, pos=(914,529)
+75.5877 	DATA 	Mouse:  Left button up, pos=(913,529)
+79.1768 	DATA 	Mouse: Left button down, pos=(1334,48)
+79.1862 	EXP 	Imported data/sub-CALINET002/sub-CALINET002_ses-1_task-pre-acquisition_ratings-input.xlsx as conditions, 6 conditions, 11 params
+79.1865 	EXP 	Created sequence: sequential, trialTypes=6, nReps=1, seed=None
+79.1867 	EXP 	New trial (rep=0, index=0): {'trial_type': 'CS+', 'cs_img': 'stimuli/aligned.png', 'cs_shape': 'square', 'rating_img': 'assets/valence_scale_clean.png', 'rating_type': 'valence', 'rating_text': '← FEELING? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the square:', 'left_anchor_text': 'very uncomfortable', 'center_anchor_text': None, 'right_anchor_text': 'very comfortable', 'trial': 1}
+79.2767 	EXP 	form_1: autoDraw = False
+79.2767 	EXP 	fixation_image_ratings: autoDraw = True
+79.2767 	EXP 	fixation_image_ratings: autoDraw = False
+79.2767 	EXP 	fixation_image_ratings: autoDraw = False
+79.2767 	EXP 	prompt: height = 0.115
+79.2767 	EXP 	prompt: height = 0.115
+79.2767 	EXP 	prompt: height = 0.115
+79.2767 	EXP 	prompt: text = '← FEELING? →'
+79.2767 	EXP 	center: height = 0.05
+79.2767 	EXP 	center: height = 0.05
+79.2767 	EXP 	center: height = 0.05
+79.2767 	EXP 	center: text = ''
+79.2767 	EXP 	left: height = 0.05
+79.2767 	EXP 	left: height = 0.05
+79.2767 	EXP 	left: height = 0.05
+79.2767 	EXP 	left: text = 'very uncomfortable'
+79.2767 	EXP 	right: height = 0.05
+79.2767 	EXP 	right: height = 0.05
+79.2767 	EXP 	right: height = 0.05
+79.2767 	EXP 	right: text = 'very comfortable'
+79.2767 	EXP 	top_instructions: height = 0.05
+79.2767 	EXP 	top_instructions: height = 0.05
+79.2767 	EXP 	top_instructions: height = 0.05
+79.2767 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the square:'
+79.2767 	EXP 	rating_slider: markerPos = None
+79.2767 	EXP 	rating_slider: markerPos = None
+79.2767 	EXP 	rating_image: autoDraw = True
+79.2767 	EXP 	rating_stim: autoDraw = True
+79.2767 	EXP 	prompt: autoDraw = True
+79.2767 	EXP 	center: autoDraw = True
+79.2767 	EXP 	left: autoDraw = True
+79.2767 	EXP 	right: autoDraw = True
+79.2767 	EXP 	top_instructions: autoDraw = True
+79.2767 	EXP 	rating_slider: autoDraw = True
+79.2903 	DATA 	Mouse:  Left button up, pos=(1334,48)
+88.4217 	DATA 	Mouse: Left button down, pos=(874,245)
+88.4274 	EXP 	rating_slider: markerPos = 5.997222222222223
+88.4441 	EXP 	rating_slider: markerPos = 5.997222222222223
+88.4608 	EXP 	rating_slider: markerPos = 5.997222222222223
+88.4775 	EXP 	rating_slider: markerPos = 5.997222222222223
+88.4883 	DATA 	Mouse:  Left button up, pos=(874,245)
+88.4942 	EXP 	rating_slider: markerPos = 6.0
+90.0756 	DATA 	Mouse: Left button down, pos=(1259,86)
+90.0765 	EXP 	New trial (rep=0, index=1): {'trial_type': 'CS+', 'cs_img': 'stimuli/aligned.png', 'cs_shape': 'square', 'rating_img': 'assets/arousal_scale_clean.png', 'rating_type': 'arousal', 'rating_text': '← AROUSAL? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the square:', 'left_anchor_text': 'calm and relaxed', 'center_anchor_text': None, 'right_anchor_text': 'very excited', 'trial': 2}
+90.1306 	EXP 	rating_image: autoDraw = False
+90.1306 	EXP 	rating_stim: autoDraw = False
+90.1306 	EXP 	prompt: autoDraw = False
+90.1306 	EXP 	center: autoDraw = False
+90.1306 	EXP 	left: autoDraw = False
+90.1306 	EXP 	right: autoDraw = False
+90.1306 	EXP 	top_instructions: autoDraw = False
+90.1306 	EXP 	rating_slider: autoDraw = False
+90.1306 	EXP 	fixation_image_ratings: autoDraw = True
+90.1306 	EXP 	fixation_image_ratings: autoDraw = False
+90.1306 	EXP 	fixation_image_ratings: autoDraw = False
+90.1306 	EXP 	prompt: height = 0.115
+90.1306 	EXP 	prompt: height = 0.115
+90.1306 	EXP 	prompt: height = 0.115
+90.1306 	EXP 	prompt: text = '← AROUSAL? →'
+90.1306 	EXP 	center: height = 0.05
+90.1306 	EXP 	center: height = 0.05
+90.1306 	EXP 	center: height = 0.05
+90.1306 	EXP 	center: text = ''
+90.1306 	EXP 	left: height = 0.05
+90.1306 	EXP 	left: height = 0.05
+90.1306 	EXP 	left: height = 0.05
+90.1306 	EXP 	left: text = 'calm and relaxed'
+90.1306 	EXP 	right: height = 0.05
+90.1306 	EXP 	right: height = 0.05
+90.1306 	EXP 	right: height = 0.05
+90.1306 	EXP 	right: text = 'very excited'
+90.1306 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the square:'
+90.1306 	EXP 	rating_slider: markerPos = None
+90.1306 	EXP 	rating_slider: markerPos = None
+90.1306 	EXP 	rating_image: autoDraw = True
+90.1306 	EXP 	rating_stim: autoDraw = True
+90.1306 	EXP 	prompt: autoDraw = True
+90.1306 	EXP 	center: autoDraw = True
+90.1306 	EXP 	left: autoDraw = True
+90.1306 	EXP 	right: autoDraw = True
+90.1306 	EXP 	top_instructions: autoDraw = True
+90.1306 	EXP 	rating_slider: autoDraw = True
+90.1588 	DATA 	Mouse:  Left button up, pos=(1259,86)
+100.3471 	DATA 	Mouse: Left button down, pos=(774,247)
+100.3500 	EXP 	rating_slider: markerPos = 5.0249999999999995
+100.3667 	EXP 	rating_slider: markerPos = 5.0249999999999995
+100.3834 	EXP 	rating_slider: markerPos = 5.0249999999999995
+100.4001 	EXP 	rating_slider: markerPos = 5.0249999999999995
+100.4168 	EXP 	rating_slider: markerPos = 5.0249999999999995
+100.4282 	DATA 	Mouse:  Left button up, pos=(774,247)
+100.4335 	EXP 	rating_slider: markerPos = 5.0
+101.4514 	DATA 	Mouse: Left button down, pos=(1241,102)
+101.4814 	EXP 	New trial (rep=0, index=2): {'trial_type': 'CS+', 'cs_img': 'stimuli/aligned.png', 'cs_shape': 'square', 'rating_img': None, 'rating_type': 'anxiety', 'rating_text': '← ANXIETY? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the square:', 'left_anchor_text': 'not anxious at all', 'center_anchor_text': None, 'right_anchor_text': 'very anxious', 'trial': 3}
+101.5022 	EXP 	rating_image: autoDraw = False
+101.5022 	EXP 	rating_stim: autoDraw = False
+101.5022 	EXP 	prompt: autoDraw = False
+101.5022 	EXP 	center: autoDraw = False
+101.5022 	EXP 	left: autoDraw = False
+101.5022 	EXP 	right: autoDraw = False
+101.5022 	EXP 	top_instructions: autoDraw = False
+101.5022 	EXP 	rating_slider: autoDraw = False
+101.5022 	EXP 	fixation_image_ratings: autoDraw = True
+101.5022 	EXP 	fixation_image_ratings: autoDraw = False
+101.5022 	EXP 	fixation_image_ratings: autoDraw = False
+101.5022 	EXP 	prompt: height = 0.115
+101.5022 	EXP 	prompt: height = 0.115
+101.5022 	EXP 	prompt: height = 0.115
+101.5022 	EXP 	prompt: text = '← ANXIETY? →'
+101.5022 	EXP 	center: height = 0.05
+101.5022 	EXP 	center: height = 0.05
+101.5022 	EXP 	center: height = 0.05
+101.5022 	EXP 	center: text = ''
+101.5022 	EXP 	left: height = 0.05
+101.5022 	EXP 	left: height = 0.05
+101.5022 	EXP 	left: height = 0.05
+101.5022 	EXP 	left: text = 'not anxious at all'
+101.5022 	EXP 	right: height = 0.05
+101.5022 	EXP 	right: height = 0.05
+101.5022 	EXP 	right: height = 0.05
+101.5022 	EXP 	right: text = 'very anxious'
+101.5022 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the square:'
+101.5022 	EXP 	rating_slider: markerPos = None
+101.5022 	EXP 	rating_slider: markerPos = None
+101.5022 	EXP 	rating_image: autoDraw = True
+101.5022 	EXP 	rating_stim: autoDraw = True
+101.5022 	EXP 	prompt: autoDraw = True
+101.5022 	EXP 	center: autoDraw = True
+101.5022 	EXP 	left: autoDraw = True
+101.5022 	EXP 	right: autoDraw = True
+101.5022 	EXP 	top_instructions: autoDraw = True
+101.5022 	EXP 	rating_slider: autoDraw = True
+101.5421 	DATA 	Mouse:  Left button up, pos=(1241,102)
+105.0319 	DATA 	Mouse: Left button down, pos=(557,240)
+105.0422 	EXP 	rating_slider: markerPos = 2.915277777777778
+105.0589 	EXP 	rating_slider: markerPos = 2.915277777777778
+105.0756 	EXP 	rating_slider: markerPos = 2.915277777777778
+105.0923 	EXP 	rating_slider: markerPos = 2.915277777777778
+105.1090 	EXP 	rating_slider: markerPos = 2.915277777777778
+105.1151 	DATA 	Mouse:  Left button up, pos=(557,240)
+105.1257 	EXP 	rating_slider: markerPos = 3.0
+106.2514 	DATA 	Mouse: Left button down, pos=(1226,89)
+106.2523 	EXP 	New trial (rep=0, index=3): {'trial_type': 'CS-', 'cs_img': 'stimuli/rotated.png', 'cs_shape': 'diamond', 'rating_img': 'assets/valence_scale_clean.png', 'rating_type': 'valence', 'rating_text': '← FEELING? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the diamond:', 'left_anchor_text': 'very uncomfortable', 'center_anchor_text': None, 'right_anchor_text': 'very comfortable', 'trial': 4}
+106.3339 	DATA 	Mouse:  Left button up, pos=(1226,89)
+106.3449 	EXP 	rating_image: autoDraw = False
+106.3449 	EXP 	rating_stim: autoDraw = False
+106.3449 	EXP 	prompt: autoDraw = False
+106.3449 	EXP 	center: autoDraw = False
+106.3449 	EXP 	left: autoDraw = False
+106.3449 	EXP 	right: autoDraw = False
+106.3449 	EXP 	top_instructions: autoDraw = False
+106.3449 	EXP 	rating_slider: autoDraw = False
+106.3449 	EXP 	fixation_image_ratings: autoDraw = True
+106.3449 	EXP 	fixation_image_ratings: autoDraw = False
+106.3449 	EXP 	fixation_image_ratings: autoDraw = False
+106.3449 	EXP 	prompt: height = 0.115
+106.3449 	EXP 	prompt: height = 0.115
+106.3449 	EXP 	prompt: height = 0.115
+106.3449 	EXP 	prompt: text = '← FEELING? →'
+106.3449 	EXP 	center: height = 0.05
+106.3449 	EXP 	center: height = 0.05
+106.3449 	EXP 	center: height = 0.05
+106.3449 	EXP 	center: text = ''
+106.3449 	EXP 	left: height = 0.05
+106.3449 	EXP 	left: height = 0.05
+106.3449 	EXP 	left: height = 0.05
+106.3449 	EXP 	left: text = 'very uncomfortable'
+106.3449 	EXP 	right: height = 0.05
+106.3449 	EXP 	right: height = 0.05
+106.3449 	EXP 	right: height = 0.05
+106.3449 	EXP 	right: text = 'very comfortable'
+106.3449 	EXP 	top_instructions: height = 0.05
+106.3449 	EXP 	top_instructions: height = 0.05
+106.3449 	EXP 	top_instructions: height = 0.05
+106.3449 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the diamond:'
+106.3449 	EXP 	rating_slider: markerPos = None
+106.3449 	EXP 	rating_slider: markerPos = None
+106.3449 	EXP 	rating_image: autoDraw = True
+106.3449 	EXP 	rating_stim: autoDraw = True
+106.3449 	EXP 	prompt: autoDraw = True
+106.3449 	EXP 	center: autoDraw = True
+106.3449 	EXP 	left: autoDraw = True
+106.3449 	EXP 	right: autoDraw = True
+106.3449 	EXP 	top_instructions: autoDraw = True
+106.3449 	EXP 	rating_slider: autoDraw = True
+115.3149 	DATA 	Mouse: Left button down, pos=(871,232)
+115.3284 	EXP 	rating_slider: markerPos = 5.968055555555556
+115.3618 	EXP 	rating_slider: markerPos = 5.968055555555556
+115.3952 	EXP 	rating_slider: markerPos = 5.968055555555556
+115.4286 	EXP 	rating_slider: markerPos = 5.968055555555556
+115.4472 	DATA 	Mouse:  Left button up, pos=(871,232)
+115.4620 	EXP 	rating_slider: markerPos = 6.0
+116.2828 	DATA 	Mouse: Left button down, pos=(1276,91)
+116.2837 	EXP 	New trial (rep=0, index=4): {'trial_type': 'CS-', 'cs_img': 'stimuli/rotated.png', 'cs_shape': 'diamond', 'rating_img': 'assets/arousal_scale_clean.png', 'rating_type': 'arousal', 'rating_text': '← AROUSAL? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the diamond:', 'left_anchor_text': 'calm and relaxed', 'center_anchor_text': None, 'right_anchor_text': 'very excited', 'trial': 5}
+116.3303 	EXP 	rating_image: autoDraw = False
+116.3303 	EXP 	rating_stim: autoDraw = False
+116.3303 	EXP 	prompt: autoDraw = False
+116.3303 	EXP 	center: autoDraw = False
+116.3303 	EXP 	left: autoDraw = False
+116.3303 	EXP 	right: autoDraw = False
+116.3303 	EXP 	top_instructions: autoDraw = False
+116.3303 	EXP 	rating_slider: autoDraw = False
+116.3303 	EXP 	fixation_image_ratings: autoDraw = True
+116.3303 	EXP 	fixation_image_ratings: autoDraw = False
+116.3303 	EXP 	fixation_image_ratings: autoDraw = False
+116.3303 	EXP 	prompt: height = 0.115
+116.3303 	EXP 	prompt: height = 0.115
+116.3303 	EXP 	prompt: height = 0.115
+116.3303 	EXP 	prompt: text = '← AROUSAL? →'
+116.3303 	EXP 	center: height = 0.05
+116.3303 	EXP 	center: height = 0.05
+116.3303 	EXP 	center: height = 0.05
+116.3303 	EXP 	center: text = ''
+116.3303 	EXP 	left: height = 0.05
+116.3303 	EXP 	left: height = 0.05
+116.3303 	EXP 	left: height = 0.05
+116.3303 	EXP 	left: text = 'calm and relaxed'
+116.3303 	EXP 	right: height = 0.05
+116.3303 	EXP 	right: height = 0.05
+116.3303 	EXP 	right: height = 0.05
+116.3303 	EXP 	right: text = 'very excited'
+116.3303 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the diamond:'
+116.3303 	EXP 	rating_slider: markerPos = None
+116.3303 	EXP 	rating_slider: markerPos = None
+116.3303 	EXP 	rating_image: autoDraw = True
+116.3303 	EXP 	rating_stim: autoDraw = True
+116.3303 	EXP 	prompt: autoDraw = True
+116.3303 	EXP 	center: autoDraw = True
+116.3303 	EXP 	left: autoDraw = True
+116.3303 	EXP 	right: autoDraw = True
+116.3303 	EXP 	top_instructions: autoDraw = True
+116.3303 	EXP 	rating_slider: autoDraw = True
+116.3503 	DATA 	Mouse:  Left button up, pos=(1276,91)
+128.1055 	DATA 	Mouse: Left button down, pos=(669,237)
+128.1193 	EXP 	rating_slider: markerPos = 4.004166666666666
+128.1527 	EXP 	rating_slider: markerPos = 4.004166666666666
+128.1861 	EXP 	rating_slider: markerPos = 4.004166666666666
+128.2056 	DATA 	Mouse:  Left button up, pos=(669,237)
+128.2196 	EXP 	rating_slider: markerPos = 4.0
+128.8435 	DATA 	Mouse: Left button down, pos=(1233,90)
+128.8744 	EXP 	New trial (rep=0, index=5): {'trial_type': 'CS-', 'cs_img': 'stimuli/rotated.png', 'cs_shape': 'diamond', 'rating_img': None, 'rating_type': 'anxiety', 'rating_text': '← ANXIETY? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the diamond:', 'left_anchor_text': 'not anxious at all', 'center_anchor_text': None, 'right_anchor_text': 'very anxious', 'trial': 6}
+128.9041 	EXP 	rating_image: autoDraw = False
+128.9041 	EXP 	rating_stim: autoDraw = False
+128.9041 	EXP 	prompt: autoDraw = False
+128.9041 	EXP 	center: autoDraw = False
+128.9041 	EXP 	left: autoDraw = False
+128.9041 	EXP 	right: autoDraw = False
+128.9041 	EXP 	top_instructions: autoDraw = False
+128.9041 	EXP 	rating_slider: autoDraw = False
+128.9041 	EXP 	fixation_image_ratings: autoDraw = True
+128.9041 	EXP 	fixation_image_ratings: autoDraw = False
+128.9041 	EXP 	fixation_image_ratings: autoDraw = False
+128.9041 	EXP 	prompt: height = 0.115
+128.9041 	EXP 	prompt: height = 0.115
+128.9041 	EXP 	prompt: height = 0.115
+128.9041 	EXP 	prompt: text = '← ANXIETY? →'
+128.9041 	EXP 	center: height = 0.05
+128.9041 	EXP 	center: height = 0.05
+128.9041 	EXP 	center: height = 0.05
+128.9041 	EXP 	center: text = ''
+128.9041 	EXP 	left: height = 0.05
+128.9041 	EXP 	left: height = 0.05
+128.9041 	EXP 	left: height = 0.05
+128.9041 	EXP 	left: text = 'not anxious at all'
+128.9041 	EXP 	right: height = 0.05
+128.9041 	EXP 	right: height = 0.05
+128.9041 	EXP 	right: height = 0.05
+128.9041 	EXP 	right: text = 'very anxious'
+128.9041 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the diamond:'
+128.9041 	EXP 	rating_slider: markerPos = None
+128.9041 	EXP 	rating_slider: markerPos = None
+128.9041 	EXP 	rating_image: autoDraw = True
+128.9041 	EXP 	rating_stim: autoDraw = True
+128.9041 	EXP 	prompt: autoDraw = True
+128.9041 	EXP 	center: autoDraw = True
+128.9041 	EXP 	left: autoDraw = True
+128.9041 	EXP 	right: autoDraw = True
+128.9041 	EXP 	top_instructions: autoDraw = True
+128.9041 	EXP 	rating_slider: autoDraw = True
+128.9512 	DATA 	Mouse:  Left button up, pos=(1233,90)
+132.2911 	DATA 	Mouse: Left button down, pos=(570,247)
+132.3106 	EXP 	rating_slider: markerPos = 3.0416666666666665
+132.3440 	EXP 	rating_slider: markerPos = 3.0416666666666665
+132.3774 	EXP 	rating_slider: markerPos = 3.0416666666666665
+132.3912 	DATA 	Mouse:  Left button up, pos=(570,247)
+132.4108 	EXP 	rating_slider: markerPos = 3.0
+133.0793 	DATA 	Mouse: Left button down, pos=(1381,82)
+133.1121 	EXP 	rating_image: autoDraw = False
+133.1121 	EXP 	rating_stim: autoDraw = False
+133.1121 	EXP 	prompt: autoDraw = False
+133.1121 	EXP 	center: autoDraw = False
+133.1121 	EXP 	left: autoDraw = False
+133.1121 	EXP 	right: autoDraw = False
+133.1121 	EXP 	top_instructions: autoDraw = False
+133.1121 	EXP 	rating_slider: autoDraw = False
+133.1121 	EXP 	pre_instructions_text: autoDraw = True
+133.1625 	DATA 	Mouse:  Left button up, pos=(1380,82)
+134.7487 	DATA 	Keypress: space
+134.7652 	EXP 	pre_instructions_text: autoDraw = False
+134.7652 	EXP 	fixation_image_pre: autoDraw = True
+139.7671 	EXP 	Imported data/sub-CALINET002/sub-CALINET002_ses-1_task-habituation_events-input.xlsx as conditions, 4 conditions, 8 params
+139.7673 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+139.7675 	EXP 	New trial (rep=0, index=0): {'trial_type': 'CS+', 'us': 0, 'iti_duration': 9.5, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 1, 'half': 1, 'task': 'habituation'}
+139.7747 	EXP 	fixation_image_pre: autoDraw = False
+139.7747 	EXP 	fixation_image_hab: autoDraw = True
+149.2928 	EXP 	fixation_image_hab: autoDraw = False
+149.2928 	EXP 	cs: autoDraw = True
+157.2582 	EXP 	New trial (rep=0, index=1): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 11.5, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 2, 'half': 1, 'task': 'habituation'}
+157.2746 	EXP 	cs: autoDraw = False
+157.2746 	EXP 	fixation_image_hab: autoDraw = True
+168.8300 	EXP 	fixation_image_hab: autoDraw = False
+168.8300 	EXP 	cs: autoDraw = True
+176.7618 	EXP 	New trial (rep=0, index=2): {'trial_type': 'CS+', 'us': 0, 'iti_duration': 12, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 3, 'half': 2, 'task': 'habituation'}
+176.7782 	EXP 	cs: autoDraw = False
+176.7782 	EXP 	fixation_image_hab: autoDraw = True
+188.8010 	EXP 	fixation_image_hab: autoDraw = False
+188.8010 	EXP 	cs: autoDraw = True
+196.7664 	EXP 	New trial (rep=0, index=3): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 10, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 4, 'half': 2, 'task': 'habituation'}
+196.7828 	EXP 	cs: autoDraw = False
+196.7828 	EXP 	fixation_image_hab: autoDraw = True
+206.8185 	EXP 	fixation_image_hab: autoDraw = False
+206.8185 	EXP 	cs: autoDraw = True
+214.7663 	EXP 	Imported data/sub-CALINET002/sub-CALINET002_ses-1_task-acquisition_events-input.xlsx as conditions, 16 conditions, 8 params
+214.7667 	EXP 	Created sequence: sequential, trialTypes=16, nReps=1, seed=None
+214.7669 	EXP 	New trial (rep=0, index=0): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 9.5, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 1, 'half': 1, 'task': 'acquisition'}
+214.7836 	EXP 	cs: autoDraw = False
+214.7836 	EXP 	fixation_image_hab: autoDraw = True
+224.2682 	EXP 	fixation_image_hab: autoDraw = False
+224.2682 	EXP 	cs: autoDraw = True
+232.2504 	EXP 	New trial (rep=0, index=1): {'trial_type': 'CS+', 'us': 1, 'iti_duration': 14.5, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 2, 'half': 1, 'task': 'acquisition'}
+232.2667 	EXP 	cs: autoDraw = False
+232.2667 	EXP 	fixation_image_hab: autoDraw = True
+246.8109 	EXP 	fixation_image_hab: autoDraw = False
+246.8109 	EXP 	cs: autoDraw = True
+254.7006 	EXP 	New trial (rep=0, index=2): {'trial_type': 'CS+', 'us': 1, 'iti_duration': 10.5, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 3, 'half': 1, 'task': 'acquisition'}
+254.7093 	EXP 	cs: autoDraw = False
+254.7093 	EXP 	fixation_image_hab: autoDraw = True
+265.2960 	EXP 	fixation_image_hab: autoDraw = False
+265.2960 	EXP 	cs: autoDraw = True
+273.2023 	EXP 	New trial (rep=0, index=3): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 12, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 4, 'half': 1, 'task': 'acquisition'}
+273.2110 	EXP 	cs: autoDraw = False
+273.2110 	EXP 	fixation_image_hab: autoDraw = True
+285.3173 	EXP 	fixation_image_hab: autoDraw = False
+285.3173 	EXP 	cs: autoDraw = True
+293.2660 	EXP 	New trial (rep=0, index=4): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 12.5, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 5, 'half': 1, 'task': 'acquisition'}
+293.2824 	EXP 	cs: autoDraw = False
+293.2824 	EXP 	fixation_image_hab: autoDraw = True
+305.7727 	EXP 	fixation_image_hab: autoDraw = False
+305.7727 	EXP 	cs: autoDraw = True
+313.7548 	EXP 	New trial (rep=0, index=5): {'trial_type': 'CS+', 'us': 1, 'iti_duration': 10, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 6, 'half': 1, 'task': 'acquisition'}
+313.7712 	EXP 	cs: autoDraw = False
+313.7712 	EXP 	fixation_image_hab: autoDraw = True
+323.8069 	EXP 	fixation_image_hab: autoDraw = False
+323.8069 	EXP 	cs: autoDraw = True
+331.6799 	EXP 	New trial (rep=0, index=6): {'trial_type': 'CS+', 'us': 1, 'iti_duration': 11, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 7, 'half': 1, 'task': 'acquisition'}
+331.6885 	EXP 	cs: autoDraw = False
+331.6885 	EXP 	fixation_image_hab: autoDraw = True
+342.7929 	EXP 	fixation_image_hab: autoDraw = False
+342.7929 	EXP 	cs: autoDraw = True
+350.6993 	EXP 	New trial (rep=0, index=7): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 13.5, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 8, 'half': 1, 'task': 'acquisition'}
+350.7079 	EXP 	cs: autoDraw = False
+350.7079 	EXP 	fixation_image_hab: autoDraw = True
+364.3170 	EXP 	fixation_image_hab: autoDraw = False
+364.3170 	EXP 	cs: autoDraw = True
+372.2657 	EXP 	New trial (rep=0, index=8): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 13, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 9, 'half': 2, 'task': 'acquisition'}
+372.2821 	EXP 	cs: autoDraw = False
+372.2821 	EXP 	fixation_image_hab: autoDraw = True
+385.2901 	EXP 	fixation_image_hab: autoDraw = False
+385.2901 	EXP 	cs: autoDraw = True
+393.2555 	EXP 	New trial (rep=0, index=9): {'trial_type': 'CS+', 'us': 0, 'iti_duration': 9, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 10, 'half': 2, 'task': 'acquisition'}
+393.2719 	EXP 	cs: autoDraw = False
+393.2719 	EXP 	fixation_image_hab: autoDraw = True
+402.3057 	EXP 	fixation_image_hab: autoDraw = False
+402.3057 	EXP 	cs: autoDraw = True
+410.2544 	EXP 	New trial (rep=0, index=10): {'trial_type': 'CS+', 'us': 1, 'iti_duration': 11.5, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 11, 'half': 2, 'task': 'acquisition'}
+410.2708 	EXP 	cs: autoDraw = False
+410.2708 	EXP 	fixation_image_hab: autoDraw = True
+421.7926 	EXP 	fixation_image_hab: autoDraw = False
+421.7926 	EXP 	cs: autoDraw = True
+429.7002 	EXP 	New trial (rep=0, index=11): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 14, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 12, 'half': 2, 'task': 'acquisition'}
+429.7076 	EXP 	cs: autoDraw = False
+429.7076 	EXP 	fixation_image_hab: autoDraw = True
+443.8177 	EXP 	fixation_image_hab: autoDraw = False
+443.8177 	EXP 	cs: autoDraw = True
+451.7497 	EXP 	New trial (rep=0, index=12): {'trial_type': 'CS+', 'us': 1, 'iti_duration': 15, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 13, 'half': 2, 'task': 'acquisition'}
+451.7661 	EXP 	cs: autoDraw = False
+451.7661 	EXP 	fixation_image_hab: autoDraw = True
+466.8113 	EXP 	fixation_image_hab: autoDraw = False
+466.8113 	EXP 	cs: autoDraw = True
+474.7010 	EXP 	New trial (rep=0, index=13): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 14, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 14, 'half': 2, 'task': 'acquisition'}
+474.7096 	EXP 	cs: autoDraw = False
+474.7096 	EXP 	fixation_image_hab: autoDraw = True
+488.8197 	EXP 	fixation_image_hab: autoDraw = False
+488.8197 	EXP 	cs: autoDraw = True
+496.7517 	EXP 	New trial (rep=0, index=14): {'trial_type': 'CS-', 'us': 0, 'iti_duration': 10.5, 'cs_duration': 8, 'cs_img': 'stimuli/rotated.png', 'trial': 15, 'half': 2, 'task': 'acquisition'}
+496.7681 	EXP 	cs: autoDraw = False
+496.7681 	EXP 	fixation_image_hab: autoDraw = True
+507.2713 	EXP 	fixation_image_hab: autoDraw = False
+507.2713 	EXP 	cs: autoDraw = True
+515.2534 	EXP 	New trial (rep=0, index=15): {'trial_type': 'CS+', 'us': 0, 'iti_duration': 14.5, 'cs_duration': 8, 'cs_img': 'stimuli/aligned.png', 'trial': 16, 'half': 2, 'task': 'acquisition'}
+515.2698 	EXP 	cs: autoDraw = False
+515.2698 	EXP 	fixation_image_hab: autoDraw = True
+529.8141 	EXP 	fixation_image_hab: autoDraw = False
+529.8141 	EXP 	cs: autoDraw = True
+537.7791 	EXP 	cs: autoDraw = False
+537.7791 	EXP 	fixation_image_post: autoDraw = True
+552.7742 	EXP 	fixation_image_post: autoDraw = False
+552.7742 	EXP 	form_2a: autoDraw = True
+565.6322 	DATA 	Mouse: Left button down, pos=(360,598)
+565.7156 	DATA 	Mouse:  Left button up, pos=(360,598)
+567.0270 	DATA 	Mouse: Left button down, pos=(1330,32)
+567.0351 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+567.0352 	EXP 	New trial (rep=0, index=0): None
+567.0680 	EXP 	form_2a: autoDraw = False
+567.0680 	EXP 	form_2b: autoDraw = True
+567.0916 	DATA 	Mouse:  Left button up, pos=(1330,32)
+574.1817 	DATA 	Mouse: Left button down, pos=(535,290)
+574.3045 	DATA 	Mouse:  Left button up, pos=(535,290)
+579.9152 	DATA 	Mouse: Left button down, pos=(911,523)
+579.9710 	DATA 	Mouse:  Left button up, pos=(911,523)
+587.6740 	DATA 	Keypress: capslock
+591.8714 	DATA 	Keypress: 8
+596.6477 	DATA 	Keypress: backspace
+597.2158 	DATA 	Keypress: 7
+599.1075 	DATA 	Mouse: Left button down, pos=(1380,39)
+599.1343 	EXP 	Imported data/sub-CALINET002/sub-CALINET002_ses-1_task-post-acquisition_ratings-input.xlsx as conditions, 6 conditions, 11 params
+599.1345 	EXP 	Created sequence: sequential, trialTypes=6, nReps=1, seed=None
+599.1348 	EXP 	New trial (rep=0, index=0): {'trial_type': 'CS+', 'cs_img': 'stimuli/aligned.png', 'cs_shape': 'square', 'rating_img': 'assets/valence_scale_clean.png', 'rating_type': 'valence', 'rating_text': '← FEELING? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the square:', 'left_anchor_text': 'very uncomfortable', 'center_anchor_text': None, 'right_anchor_text': 'very comfortable', 'trial': 1}
+599.1958 	EXP 	form_2b: autoDraw = False
+599.1958 	EXP 	fixation_image_ratings: autoDraw = True
+599.1958 	EXP 	fixation_image_ratings: autoDraw = False
+599.1958 	EXP 	fixation_image_ratings: autoDraw = False
+599.1958 	EXP 	prompt: height = 0.115
+599.1958 	EXP 	prompt: height = 0.115
+599.1958 	EXP 	prompt: height = 0.115
+599.1958 	EXP 	prompt: text = '← FEELING? →'
+599.1958 	EXP 	center: height = 0.05
+599.1958 	EXP 	center: height = 0.05
+599.1958 	EXP 	center: height = 0.05
+599.1958 	EXP 	center: text = ''
+599.1958 	EXP 	left: height = 0.05
+599.1958 	EXP 	left: height = 0.05
+599.1958 	EXP 	left: height = 0.05
+599.1958 	EXP 	left: text = 'very uncomfortable'
+599.1958 	EXP 	right: height = 0.05
+599.1958 	EXP 	right: height = 0.05
+599.1958 	EXP 	right: height = 0.05
+599.1958 	EXP 	right: text = 'very comfortable'
+599.1958 	EXP 	top_instructions: height = 0.05
+599.1958 	EXP 	top_instructions: height = 0.05
+599.1958 	EXP 	top_instructions: height = 0.05
+599.1958 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the square:'
+599.1958 	EXP 	rating_slider: markerPos = None
+599.1958 	EXP 	rating_slider: markerPos = None
+599.1958 	EXP 	rating_image: autoDraw = True
+599.1958 	EXP 	rating_stim: autoDraw = True
+599.1958 	EXP 	prompt: autoDraw = True
+599.1958 	EXP 	center: autoDraw = True
+599.1958 	EXP 	left: autoDraw = True
+599.1958 	EXP 	right: autoDraw = True
+599.1958 	EXP 	top_instructions: autoDraw = True
+599.1958 	EXP 	rating_slider: autoDraw = True
+599.2337 	DATA 	Mouse:  Left button up, pos=(1380,39)
+604.5568 	DATA 	Mouse: Left button down, pos=(778,231)
+604.5724 	EXP 	rating_slider: markerPos = 5.063888888888889
+604.6062 	DATA 	Mouse:  Left button up, pos=(778,231)
+604.6225 	EXP 	rating_slider: markerPos = 5.0
+606.1282 	DATA 	Mouse: Left button down, pos=(1259,97)
+606.1631 	EXP 	New trial (rep=0, index=1): {'trial_type': 'CS+', 'cs_img': 'stimuli/aligned.png', 'cs_shape': 'square', 'rating_img': 'assets/arousal_scale_clean.png', 'rating_type': 'arousal', 'rating_text': '← AROUSAL? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the square:', 'left_anchor_text': 'calm and relaxed', 'center_anchor_text': None, 'right_anchor_text': 'very excited', 'trial': 2}
+606.2108 	DATA 	Mouse:  Left button up, pos=(1259,97)
+606.2256 	EXP 	rating_image: autoDraw = False
+606.2256 	EXP 	rating_stim: autoDraw = False
+606.2256 	EXP 	prompt: autoDraw = False
+606.2256 	EXP 	center: autoDraw = False
+606.2256 	EXP 	left: autoDraw = False
+606.2256 	EXP 	right: autoDraw = False
+606.2256 	EXP 	top_instructions: autoDraw = False
+606.2256 	EXP 	rating_slider: autoDraw = False
+606.2256 	EXP 	fixation_image_ratings: autoDraw = True
+606.2256 	EXP 	fixation_image_ratings: autoDraw = False
+606.2256 	EXP 	fixation_image_ratings: autoDraw = False
+606.2256 	EXP 	prompt: height = 0.115
+606.2256 	EXP 	prompt: height = 0.115
+606.2256 	EXP 	prompt: height = 0.115
+606.2256 	EXP 	prompt: text = '← AROUSAL? →'
+606.2256 	EXP 	center: height = 0.05
+606.2256 	EXP 	center: height = 0.05
+606.2256 	EXP 	center: height = 0.05
+606.2256 	EXP 	center: text = ''
+606.2256 	EXP 	left: height = 0.05
+606.2256 	EXP 	left: height = 0.05
+606.2256 	EXP 	left: height = 0.05
+606.2256 	EXP 	left: text = 'calm and relaxed'
+606.2256 	EXP 	right: height = 0.05
+606.2256 	EXP 	right: height = 0.05
+606.2256 	EXP 	right: height = 0.05
+606.2256 	EXP 	right: text = 'very excited'
+606.2256 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the square:'
+606.2256 	EXP 	rating_slider: markerPos = None
+606.2256 	EXP 	rating_slider: markerPos = None
+606.2256 	EXP 	rating_image: autoDraw = True
+606.2256 	EXP 	rating_stim: autoDraw = True
+606.2256 	EXP 	prompt: autoDraw = True
+606.2256 	EXP 	center: autoDraw = True
+606.2256 	EXP 	left: autoDraw = True
+606.2256 	EXP 	right: autoDraw = True
+606.2256 	EXP 	top_instructions: autoDraw = True
+606.2256 	EXP 	rating_slider: autoDraw = True
+608.6648 	DATA 	Mouse: Left button down, pos=(674,231)
+608.6802 	EXP 	rating_slider: markerPos = 4.052777777777778
+608.7152 	DATA 	Mouse:  Left button up, pos=(674,231)
+608.7303 	EXP 	rating_slider: markerPos = 4.0
+609.9178 	DATA 	Mouse: Left button down, pos=(762,237)
+609.9326 	EXP 	rating_slider: markerPos = 4.908333333333333
+609.9827 	EXP 	rating_slider: markerPos = 4.908333333333333
+610.0180 	DATA 	Mouse:  Left button up, pos=(762,237)
+610.0328 	EXP 	rating_slider: markerPos = 5.0
+611.3207 	DATA 	Mouse: Left button down, pos=(888,240)
+611.3352 	EXP 	rating_slider: markerPos = 6.133333333333334
+611.3853 	EXP 	rating_slider: markerPos = 6.133333333333334
+611.4208 	DATA 	Mouse:  Left button up, pos=(888,240)
+611.4354 	EXP 	rating_slider: markerPos = 6.0
+614.3262 	DATA 	Mouse: Left button down, pos=(1222,96)
+614.3293 	EXP 	New trial (rep=0, index=2): {'trial_type': 'CS+', 'cs_img': 'stimuli/aligned.png', 'cs_shape': 'square', 'rating_img': None, 'rating_type': 'anxiety', 'rating_text': '← ANXIETY? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the square:', 'left_anchor_text': 'not anxious at all', 'center_anchor_text': None, 'right_anchor_text': 'very anxious', 'trial': 3}
+614.3743 	EXP 	rating_image: autoDraw = False
+614.3743 	EXP 	rating_stim: autoDraw = False
+614.3743 	EXP 	prompt: autoDraw = False
+614.3743 	EXP 	center: autoDraw = False
+614.3743 	EXP 	left: autoDraw = False
+614.3743 	EXP 	right: autoDraw = False
+614.3743 	EXP 	top_instructions: autoDraw = False
+614.3743 	EXP 	rating_slider: autoDraw = False
+614.3743 	EXP 	fixation_image_ratings: autoDraw = True
+614.3743 	EXP 	fixation_image_ratings: autoDraw = False
+614.3743 	EXP 	fixation_image_ratings: autoDraw = False
+614.3743 	EXP 	prompt: height = 0.115
+614.3743 	EXP 	prompt: height = 0.115
+614.3743 	EXP 	prompt: height = 0.115
+614.3743 	EXP 	prompt: text = '← ANXIETY? →'
+614.3743 	EXP 	center: height = 0.05
+614.3743 	EXP 	center: height = 0.05
+614.3743 	EXP 	center: height = 0.05
+614.3743 	EXP 	center: text = ''
+614.3743 	EXP 	left: height = 0.05
+614.3743 	EXP 	left: height = 0.05
+614.3743 	EXP 	left: height = 0.05
+614.3743 	EXP 	left: text = 'not anxious at all'
+614.3743 	EXP 	right: height = 0.05
+614.3743 	EXP 	right: height = 0.05
+614.3743 	EXP 	right: height = 0.05
+614.3743 	EXP 	right: text = 'very anxious'
+614.3743 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the square:'
+614.3743 	EXP 	rating_slider: markerPos = None
+614.3743 	EXP 	rating_slider: markerPos = None
+614.3743 	EXP 	rating_image: autoDraw = True
+614.3743 	EXP 	rating_stim: autoDraw = True
+614.3743 	EXP 	prompt: autoDraw = True
+614.3743 	EXP 	center: autoDraw = True
+614.3743 	EXP 	left: autoDraw = True
+614.3743 	EXP 	right: autoDraw = True
+614.3743 	EXP 	top_instructions: autoDraw = True
+614.3743 	EXP 	rating_slider: autoDraw = True
+614.4044 	DATA 	Mouse:  Left button up, pos=(1222,96)
+616.9924 	DATA 	Mouse: Left button down, pos=(665,245)
+617.0127 	EXP 	rating_slider: markerPos = 3.9652777777777777
+617.0461 	EXP 	rating_slider: markerPos = 3.9652777777777777
+617.0754 	DATA 	Mouse:  Left button up, pos=(665,245)
+617.0962 	EXP 	rating_slider: markerPos = 4.0
+620.5534 	DATA 	Mouse: Left button down, pos=(779,229)
+620.6028 	EXP 	rating_slider: markerPos = 5.073611111111111
+620.6327 	DATA 	Mouse:  Left button up, pos=(779,229)
+620.6529 	EXP 	rating_slider: markerPos = 5.0
+621.3017 	DATA 	Mouse: Left button down, pos=(1206,105)
+621.3025 	EXP 	New trial (rep=0, index=3): {'trial_type': 'CS-', 'cs_img': 'stimuli/rotated.png', 'cs_shape': 'diamond', 'rating_img': 'assets/valence_scale_clean.png', 'rating_type': 'valence', 'rating_text': '← FEELING? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the diamond:', 'left_anchor_text': 'very uncomfortable', 'center_anchor_text': None, 'right_anchor_text': 'very comfortable', 'trial': 4}
+621.3746 	DATA 	Mouse:  Left button up, pos=(1206,105)
+621.3877 	EXP 	rating_image: autoDraw = False
+621.3877 	EXP 	rating_stim: autoDraw = False
+621.3877 	EXP 	prompt: autoDraw = False
+621.3877 	EXP 	center: autoDraw = False
+621.3877 	EXP 	left: autoDraw = False
+621.3877 	EXP 	right: autoDraw = False
+621.3877 	EXP 	top_instructions: autoDraw = False
+621.3877 	EXP 	rating_slider: autoDraw = False
+621.3877 	EXP 	fixation_image_ratings: autoDraw = True
+621.3877 	EXP 	fixation_image_ratings: autoDraw = False
+621.3877 	EXP 	fixation_image_ratings: autoDraw = False
+621.3877 	EXP 	prompt: height = 0.115
+621.3877 	EXP 	prompt: height = 0.115
+621.3877 	EXP 	prompt: height = 0.115
+621.3877 	EXP 	prompt: text = '← FEELING? →'
+621.3877 	EXP 	center: height = 0.05
+621.3877 	EXP 	center: height = 0.05
+621.3877 	EXP 	center: height = 0.05
+621.3877 	EXP 	center: text = ''
+621.3877 	EXP 	left: height = 0.05
+621.3877 	EXP 	left: height = 0.05
+621.3877 	EXP 	left: height = 0.05
+621.3877 	EXP 	left: text = 'very uncomfortable'
+621.3877 	EXP 	right: height = 0.05
+621.3877 	EXP 	right: height = 0.05
+621.3877 	EXP 	right: height = 0.05
+621.3877 	EXP 	right: text = 'very comfortable'
+621.3877 	EXP 	top_instructions: height = 0.05
+621.3877 	EXP 	top_instructions: height = 0.05
+621.3877 	EXP 	top_instructions: height = 0.05
+621.3877 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the diamond:'
+621.3877 	EXP 	rating_slider: markerPos = None
+621.3877 	EXP 	rating_slider: markerPos = None
+621.3877 	EXP 	rating_image: autoDraw = True
+621.3877 	EXP 	rating_stim: autoDraw = True
+621.3877 	EXP 	prompt: autoDraw = True
+621.3877 	EXP 	center: autoDraw = True
+621.3877 	EXP 	left: autoDraw = True
+621.3877 	EXP 	right: autoDraw = True
+621.3877 	EXP 	top_instructions: autoDraw = True
+621.3877 	EXP 	rating_slider: autoDraw = True
+624.0450 	DATA 	Mouse: Left button down, pos=(766,241)
+624.0594 	EXP 	rating_slider: markerPos = 4.947222222222222
+624.0928 	EXP 	rating_slider: markerPos = 4.947222222222222
+624.1112 	DATA 	Mouse:  Left button up, pos=(766,241)
+624.1262 	EXP 	rating_slider: markerPos = 5.0
+626.0198 	DATA 	Mouse: Left button down, pos=(1234,99)
+626.0494 	EXP 	New trial (rep=0, index=4): {'trial_type': 'CS-', 'cs_img': 'stimuli/rotated.png', 'cs_shape': 'diamond', 'rating_img': 'assets/arousal_scale_clean.png', 'rating_type': 'arousal', 'rating_text': '← AROUSAL? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the diamond:', 'left_anchor_text': 'calm and relaxed', 'center_anchor_text': None, 'right_anchor_text': 'very excited', 'trial': 5}
+626.0966 	EXP 	rating_image: autoDraw = False
+626.0966 	EXP 	rating_stim: autoDraw = False
+626.0966 	EXP 	prompt: autoDraw = False
+626.0966 	EXP 	center: autoDraw = False
+626.0966 	EXP 	left: autoDraw = False
+626.0966 	EXP 	right: autoDraw = False
+626.0966 	EXP 	top_instructions: autoDraw = False
+626.0966 	EXP 	rating_slider: autoDraw = False
+626.0966 	EXP 	fixation_image_ratings: autoDraw = True
+626.0966 	EXP 	fixation_image_ratings: autoDraw = False
+626.0966 	EXP 	fixation_image_ratings: autoDraw = False
+626.0966 	EXP 	prompt: height = 0.115
+626.0966 	EXP 	prompt: height = 0.115
+626.0966 	EXP 	prompt: height = 0.115
+626.0966 	EXP 	prompt: text = '← AROUSAL? →'
+626.0966 	EXP 	center: height = 0.05
+626.0966 	EXP 	center: height = 0.05
+626.0966 	EXP 	center: height = 0.05
+626.0966 	EXP 	center: text = ''
+626.0966 	EXP 	left: height = 0.05
+626.0966 	EXP 	left: height = 0.05
+626.0966 	EXP 	left: height = 0.05
+626.0966 	EXP 	left: text = 'calm and relaxed'
+626.0966 	EXP 	right: height = 0.05
+626.0966 	EXP 	right: height = 0.05
+626.0966 	EXP 	right: height = 0.05
+626.0966 	EXP 	right: text = 'very excited'
+626.0966 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the diamond:'
+626.0966 	EXP 	rating_slider: markerPos = None
+626.0966 	EXP 	rating_slider: markerPos = None
+626.0966 	EXP 	rating_image: autoDraw = True
+626.0966 	EXP 	rating_stim: autoDraw = True
+626.0966 	EXP 	prompt: autoDraw = True
+626.0966 	EXP 	center: autoDraw = True
+626.0966 	EXP 	left: autoDraw = True
+626.0966 	EXP 	right: autoDraw = True
+626.0966 	EXP 	top_instructions: autoDraw = True
+626.0966 	EXP 	rating_slider: autoDraw = True
+626.1498 	DATA 	Mouse:  Left button up, pos=(1234,99)
+631.3262 	DATA 	Mouse: Left button down, pos=(767,245)
+631.3301 	DATA 	Mouse:  Left button up, pos=(767,245)
+631.3398 	EXP 	rating_slider: markerPos = 4.956944444444444
+631.3732 	EXP 	rating_slider: markerPos = 5.0
+632.5950 	DATA 	Mouse: Left button down, pos=(1246,104)
+632.5959 	EXP 	New trial (rep=0, index=5): {'trial_type': 'CS-', 'cs_img': 'stimuli/rotated.png', 'cs_shape': 'diamond', 'rating_img': None, 'rating_type': 'anxiety', 'rating_text': '← ANXIETY? →', 'top_instructions_text': 'Please indicate how you feel right now when you are looking at the diamond:', 'left_anchor_text': 'not anxious at all', 'center_anchor_text': None, 'right_anchor_text': 'very anxious', 'trial': 6}
+632.6256 	EXP 	rating_image: autoDraw = False
+632.6256 	EXP 	rating_stim: autoDraw = False
+632.6256 	EXP 	prompt: autoDraw = False
+632.6256 	EXP 	center: autoDraw = False
+632.6256 	EXP 	left: autoDraw = False
+632.6256 	EXP 	right: autoDraw = False
+632.6256 	EXP 	top_instructions: autoDraw = False
+632.6256 	EXP 	rating_slider: autoDraw = False
+632.6256 	EXP 	fixation_image_ratings: autoDraw = True
+632.6256 	EXP 	fixation_image_ratings: autoDraw = False
+632.6256 	EXP 	fixation_image_ratings: autoDraw = False
+632.6256 	EXP 	prompt: height = 0.115
+632.6256 	EXP 	prompt: height = 0.115
+632.6256 	EXP 	prompt: height = 0.115
+632.6256 	EXP 	prompt: text = '← ANXIETY? →'
+632.6256 	EXP 	center: height = 0.05
+632.6256 	EXP 	center: height = 0.05
+632.6256 	EXP 	center: height = 0.05
+632.6256 	EXP 	center: text = ''
+632.6256 	EXP 	left: height = 0.05
+632.6256 	EXP 	left: height = 0.05
+632.6256 	EXP 	left: height = 0.05
+632.6256 	EXP 	left: text = 'not anxious at all'
+632.6256 	EXP 	right: height = 0.05
+632.6256 	EXP 	right: height = 0.05
+632.6256 	EXP 	right: height = 0.05
+632.6256 	EXP 	right: text = 'very anxious'
+632.6256 	EXP 	top_instructions: text = 'Please indicate how you feel right now when you are looking at the diamond:'
+632.6256 	EXP 	rating_slider: markerPos = None
+632.6256 	EXP 	rating_slider: markerPos = None
+632.6256 	EXP 	rating_image: autoDraw = True
+632.6256 	EXP 	rating_stim: autoDraw = True
+632.6256 	EXP 	prompt: autoDraw = True
+632.6256 	EXP 	center: autoDraw = True
+632.6256 	EXP 	left: autoDraw = True
+632.6256 	EXP 	right: autoDraw = True
+632.6256 	EXP 	top_instructions: autoDraw = True
+632.6256 	EXP 	rating_slider: autoDraw = True
+632.6579 	DATA 	Mouse:  Left button up, pos=(1246,104)
+634.0256 	DATA 	Mouse: Left button down, pos=(659,232)
+634.0450 	EXP 	rating_slider: markerPos = 3.906944444444444
+634.0784 	EXP 	rating_slider: markerPos = 3.906944444444444
+634.0925 	DATA 	Mouse:  Left button up, pos=(659,232)
+634.1118 	EXP 	rating_slider: markerPos = 4.0
+637.9673 	DATA 	Mouse: Left button down, pos=(1262,87)
+637.9858 	EXP 	rating_image: autoDraw = False
+637.9858 	EXP 	rating_stim: autoDraw = False
+637.9858 	EXP 	prompt: autoDraw = False
+637.9858 	EXP 	center: autoDraw = False
+637.9858 	EXP 	left: autoDraw = False
+637.9858 	EXP 	right: autoDraw = False
+637.9858 	EXP 	top_instructions: autoDraw = False
+637.9858 	EXP 	rating_slider: autoDraw = False
+637.9858 	EXP 	end_instructions_text: autoDraw = True
+638.0361 	DATA 	Mouse:  Left button up, pos=(1262,87)
+641.7765 	DATA 	Keypress: space
+641.8709 	EXP 	window1: mouseVisible = True

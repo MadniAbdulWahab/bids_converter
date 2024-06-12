@@ -1,0 +1,9 @@
+﻿n,form_3c_next_button.numClicks_mean,form_3c_next_button.numClicks_raw,form_3c_next_button.numClicks_std,form_3c_next_button.timesOff_raw,form_3c_next_button.timesOn_raw,order
+1.0,1.0,1.0,0.0,47.17301960004261,47.17301750002662,0.0
+
+extraInfo
+,
+date,2024-03-14_15h09.49.252
+expName,extinction
+psychopyVersion,2022.2.4
+frameRate,59.8870888873509

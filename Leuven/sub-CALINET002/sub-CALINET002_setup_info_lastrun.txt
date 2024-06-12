@@ -1,0 +1,73 @@
+sub-CALINET002
+14/03/2024 14:11:29
+
+Counterbalancing Orders:
+
+CS order: A
+Test order: 2
+
+Settings/Preferences:
+#######################################################################################################################
+'''
+CALINET2 TASK PREFERENCES
+
+most everything that needs to be changed for each lab can be changed here, instead of going into the .psyexp files.
+this and all other code files must stay in the same directory to work.
+
+'''
+#######################################################################################################################
+
+# ======== general task settings =============
+
+study_prefix = 'CALINET' # change to study identifier (aka what will be printed in datafile names); string
+user_language = 'english' # language to use for rating questions and instructions/task text, must match an extant language folder in /templates, /forms, and /instructions_and_text; string
+eye_tracking_toggle = 'off' # toggle if collecting eye-tracking data or not. must be 'off' (default) or 'on'; string
+
+# ======== letter height =============
+
+## these parameters can be changed if there are issues fitting text on screen/overlapping text, but defaults are recommended if none of these issues encountered.
+
+instruction_letter_height = .1 # default to .1, controls size of general instruction text font; float
+rating_text_letter_height = .115 # default to .115, controls size of rating text prompt (e.g.,FEELING?); float
+rating_top_instruction_letter_height = .05 # default to .05, controls size of instructions presented at top for each rating (e.g., Please indicate how you feel right now looking at...); float
+rating_anchor_letter_height = .05 # default to .05, controls size of rating anchor text (e.g.,"not anxious at all"); float
+letter_height_warnings = 'on' # display warnings related to changed and potentially problematic letter heights, must be 'on' (default) or 'off'; string
+
+# ======== testing room parameters =============
+# > second testing room info is optional
+
+# testing room 1 ------------------------
+port_label_1 = 'COM4' # string
+port_type_1 = 'P' # serial (S) or parallel (P), case sensitive; string
+port_address_1 = '0x3FF8' # string
+
+#testing room 2 ------------------------
+port_label_2 = None # string
+port_type_2 = None # serial (S) or parallel (P), case sensitive; string
+port_address_2 = None # string
+
+# ======== shock parameters =============
+
+shock_duration_ms = 500  # milliseconds, do not change if using stock CALINET2 task; integer
+single_shock_duration_ms = 5 # maximum duration of single shock instance; integer
+rest_period_duration_ms = 100 # minimum rest period between shock instances; integer
+
+### WARNING: read relevant part of user_guide before changing this!
+n_shocks_override = False # default to False; must be either False or integer
+
+### can be useful to change if having keyboard issues (e.g., QWERTY vs AZERTY, but default (['0','1','2','3','4','5','6','7','8','9']) is usually recommended)
+allowable_shk_calibration_resps = ['0','1','2','3','4','5','6','7','8','9'] # allowable numerical responses for intensity ratings during shock calibration pt 2; list
+
+# ======== port I/O parameters =============
+
+# parallel port configuration -------------------------
+shock_pin = 2 # shock delivery pin number; integer
+stimulus_pin = 3 # stimulus onset pin number; integer
+
+# serial port configuration -------------------------
+shock_and_stimulus_code = b'81' # signal to send shock and log stimulus; byte
+shock_only_code = b'80' # signal to only send shock; byte
+stimulus_only_code = b'01' # signal to only log stimulus; byte
+port_off_code = b'00' # signal to zero all digital lines; byte
+
+

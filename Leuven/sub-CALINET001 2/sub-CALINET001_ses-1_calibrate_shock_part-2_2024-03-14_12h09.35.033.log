@@ -1,0 +1,235 @@
+1.1084 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.6675 	WARNING 	Requested an unavailable screen number - using first available.
+8.1950 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000249B2658970>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000249B2BD2580>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=1, size=array([1440,  900]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.1951 	EXP 	window1: mouseVisible = True
+8.1951 	EXP 	window1: mouseVisible = False
+8.1951 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+8.1951 	EXP 	window1: recordFrameIntervals = False
+8.3615 	EXP 	window1: recordFrameIntervals = True
+8.5452 	EXP 	Screen (1) actual frame rate measured at 59.89Hz
+8.5453 	EXP 	window1: recordFrameIntervals = False
+8.6241 	EXP 	Created stim_calibration_instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stim_calibration_instructions_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.6287 	EXP 	Created first_stim_delivery_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='first_stim_delivery_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.6312 	EXP 	Created shock_counter_text_first = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='shock_counter_text_first', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=UNKNOWN, text='shock # 1', units='height', win=Window(...), wrapWidth=1)
+8.6316 	EXP 	Created rating_input_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rating_input_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6319 	EXP 	Created rating_shock_counter = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rating_shock_counter', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6345 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.6349 	EXP 	Created stim_delivery_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stim_delivery_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6352 	EXP 	Created shock_counter_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='shock_counter_text', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6356 	EXP 	Created rating_input_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rating_input_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6359 	EXP 	Created rating_shock_counter = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rating_shock_counter', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6368 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.6378 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.6381 	EXP 	Created final_shock_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='final_shock_text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6385 	EXP 	Created final_shock_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='final_shock_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6456 	EXP 	stim_calibration_instructions_text: autoDraw = True
+10.0148 	DATA 	Keypress: space
+10.0313 	EXP 	stim_calibration_instructions_text: autoDraw = False
+10.0313 	EXP 	first_stim_delivery_text: autoDraw = True
+10.0313 	EXP 	shock_counter_text_first: autoDraw = True
+12.2692 	DATA 	Keypress: space
+12.7030 	EXP 	first_stim_delivery_text: autoDraw = False
+12.7030 	EXP 	shock_counter_text_first: autoDraw = False
+12.7030 	EXP 	rating_input_text: autoDraw = True
+12.7030 	EXP 	rating_shock_counter: autoDraw = True
+14.8072 	DATA 	Keypress: capslock
+15.2748 	DATA 	Keypress: 8
+15.2913 	EXP 	rating_input_text: autoDraw = False
+15.2913 	EXP 	rating_shock_counter: autoDraw = False
+15.2913 	EXP 	fixation: autoDraw = True
+15.7759 	EXP 	Created sequence: sequential, trialTypes=1, nReps=13, seed=None
+15.7760 	EXP 	New trial (rep=0, index=0): None
+15.7926 	EXP 	fixation: autoDraw = False
+15.7926 	EXP 	fixation: autoDraw = False
+15.7926 	EXP 	stim_delivery_text: autoDraw = True
+15.7926 	EXP 	shock_counter_text: autoDraw = True
+26.8967 	DATA 	Keypress: space
+27.3307 	EXP 	stim_delivery_text: autoDraw = False
+27.3307 	EXP 	shock_counter_text: autoDraw = False
+27.3307 	EXP 	rating_input_text: autoDraw = True
+27.3307 	EXP 	rating_shock_counter: autoDraw = True
+31.7894 	DATA 	Keypress: lshift
+33.2922 	DATA 	Keypress: lshift
+33.9268 	DATA 	Keypress: 7
+33.9433 	EXP 	rating_input_text: autoDraw = False
+33.9433 	EXP 	rating_shock_counter: autoDraw = False
+33.9433 	EXP 	fixation: autoDraw = True
+34.4277 	EXP 	New trial (rep=1, index=0): None
+34.4442 	EXP 	fixation: autoDraw = False
+34.4442 	EXP 	stim_delivery_text: autoDraw = True
+34.4442 	EXP 	shock_counter_text: autoDraw = True
+43.0774 	DATA 	Keypress: space
+43.5114 	EXP 	stim_delivery_text: autoDraw = False
+43.5114 	EXP 	shock_counter_text: autoDraw = False
+43.5114 	EXP 	rating_input_text: autoDraw = True
+43.5114 	EXP 	rating_shock_counter: autoDraw = True
+47.5526 	DATA 	Keypress: lshift
+48.4542 	DATA 	Keypress: 5
+48.4708 	EXP 	rating_input_text: autoDraw = False
+48.4708 	EXP 	rating_shock_counter: autoDraw = False
+48.4708 	EXP 	fixation: autoDraw = True
+48.9553 	EXP 	New trial (rep=2, index=0): None
+48.9717 	EXP 	fixation: autoDraw = False
+48.9717 	EXP 	stim_delivery_text: autoDraw = True
+48.9717 	EXP 	shock_counter_text: autoDraw = True
+61.4289 	DATA 	Keypress: space
+61.8628 	EXP 	stim_delivery_text: autoDraw = False
+61.8628 	EXP 	shock_counter_text: autoDraw = False
+61.8628 	EXP 	rating_input_text: autoDraw = True
+61.8628 	EXP 	rating_shock_counter: autoDraw = True
+69.3773 	DATA 	Keypress: lshift
+72.0155 	DATA 	Keypress: 6
+72.0321 	EXP 	rating_input_text: autoDraw = False
+72.0321 	EXP 	rating_shock_counter: autoDraw = False
+72.0321 	EXP 	fixation: autoDraw = True
+72.5165 	EXP 	New trial (rep=3, index=0): None
+72.5330 	EXP 	fixation: autoDraw = False
+72.5330 	EXP 	stim_delivery_text: autoDraw = True
+72.5330 	EXP 	shock_counter_text: autoDraw = True
+82.4854 	DATA 	Keypress: space
+82.9194 	EXP 	stim_delivery_text: autoDraw = False
+82.9194 	EXP 	shock_counter_text: autoDraw = False
+82.9194 	EXP 	rating_input_text: autoDraw = True
+82.9194 	EXP 	rating_shock_counter: autoDraw = True
+88.1127 	DATA 	Keypress: lshift
+89.1647 	DATA 	Keypress: 8
+89.1812 	EXP 	rating_input_text: autoDraw = False
+89.1812 	EXP 	rating_shock_counter: autoDraw = False
+89.1812 	EXP 	fixation: autoDraw = True
+89.6657 	EXP 	New trial (rep=4, index=0): None
+89.6822 	EXP 	fixation: autoDraw = False
+89.6822 	EXP 	stim_delivery_text: autoDraw = True
+89.6822 	EXP 	shock_counter_text: autoDraw = True
+99.6846 	DATA 	Keypress: space
+100.1186 	EXP 	stim_delivery_text: autoDraw = False
+100.1186 	EXP 	shock_counter_text: autoDraw = False
+100.1186 	EXP 	rating_input_text: autoDraw = True
+100.1186 	EXP 	rating_shock_counter: autoDraw = True
+102.9575 	DATA 	Keypress: lshift
+104.1603 	DATA 	Keypress: 2
+104.1763 	EXP 	rating_input_text: autoDraw = False
+104.1763 	EXP 	rating_shock_counter: autoDraw = False
+104.1763 	EXP 	fixation: autoDraw = True
+104.6608 	EXP 	New trial (rep=5, index=0): None
+104.6773 	EXP 	fixation: autoDraw = False
+104.6773 	EXP 	stim_delivery_text: autoDraw = True
+104.6773 	EXP 	shock_counter_text: autoDraw = True
+114.7799 	DATA 	Keypress: space
+115.2142 	EXP 	stim_delivery_text: autoDraw = False
+115.2142 	EXP 	shock_counter_text: autoDraw = False
+115.2142 	EXP 	rating_input_text: autoDraw = True
+115.2142 	EXP 	rating_shock_counter: autoDraw = True
+118.3869 	DATA 	Keypress: lshift
+119.1883 	DATA 	Keypress: 4
+119.2048 	EXP 	rating_input_text: autoDraw = False
+119.2048 	EXP 	rating_shock_counter: autoDraw = False
+119.2048 	EXP 	fixation: autoDraw = True
+119.6892 	EXP 	New trial (rep=6, index=0): None
+119.7057 	EXP 	fixation: autoDraw = False
+119.7057 	EXP 	stim_delivery_text: autoDraw = True
+119.7057 	EXP 	shock_counter_text: autoDraw = True
+127.9051 	DATA 	Keypress: space
+128.3388 	EXP 	stim_delivery_text: autoDraw = False
+128.3388 	EXP 	shock_counter_text: autoDraw = False
+128.3388 	EXP 	rating_input_text: autoDraw = True
+128.3388 	EXP 	rating_shock_counter: autoDraw = True
+132.0963 	DATA 	Keypress: lshift
+132.9311 	DATA 	Keypress: 5
+132.9475 	EXP 	rating_input_text: autoDraw = False
+132.9475 	EXP 	rating_shock_counter: autoDraw = False
+132.9475 	EXP 	fixation: autoDraw = True
+133.4320 	EXP 	New trial (rep=7, index=0): None
+133.4484 	EXP 	fixation: autoDraw = False
+133.4484 	EXP 	fixation: autoDraw = False
+133.4484 	EXP 	stim_delivery_text: autoDraw = True
+133.4484 	EXP 	shock_counter_text: autoDraw = True
+141.2634 	DATA 	Keypress: space
+141.6974 	EXP 	stim_delivery_text: autoDraw = False
+141.6974 	EXP 	shock_counter_text: autoDraw = False
+141.6974 	EXP 	rating_input_text: autoDraw = True
+141.6974 	EXP 	rating_shock_counter: autoDraw = True
+145.6885 	DATA 	Keypress: lshift
+146.2563 	DATA 	Keypress: 7
+146.2727 	EXP 	rating_input_text: autoDraw = False
+146.2727 	EXP 	rating_shock_counter: autoDraw = False
+146.2727 	EXP 	fixation: autoDraw = True
+146.7572 	EXP 	New trial (rep=8, index=0): None
+146.7737 	EXP 	fixation: autoDraw = False
+146.7737 	EXP 	stim_delivery_text: autoDraw = True
+146.7737 	EXP 	shock_counter_text: autoDraw = True
+156.9264 	DATA 	Keypress: space
+157.3607 	EXP 	stim_delivery_text: autoDraw = False
+157.3607 	EXP 	shock_counter_text: autoDraw = False
+157.3607 	EXP 	rating_input_text: autoDraw = True
+157.3607 	EXP 	rating_shock_counter: autoDraw = True
+160.7170 	DATA 	Keypress: lshift
+161.6187 	DATA 	Keypress: 1
+161.6352 	EXP 	rating_input_text: autoDraw = False
+161.6352 	EXP 	rating_shock_counter: autoDraw = False
+161.6352 	EXP 	fixation: autoDraw = True
+162.1196 	EXP 	New trial (rep=9, index=0): None
+162.1361 	EXP 	fixation: autoDraw = False
+162.1361 	EXP 	stim_delivery_text: autoDraw = True
+162.1361 	EXP 	shock_counter_text: autoDraw = True
+172.3389 	DATA 	Keypress: space
+172.7730 	EXP 	stim_delivery_text: autoDraw = False
+172.7730 	EXP 	shock_counter_text: autoDraw = False
+172.7730 	EXP 	rating_input_text: autoDraw = True
+172.7730 	EXP 	rating_shock_counter: autoDraw = True
+176.1295 	DATA 	Keypress: lshift
+176.7640 	DATA 	Keypress: 9
+176.7806 	EXP 	rating_input_text: autoDraw = False
+176.7806 	EXP 	rating_shock_counter: autoDraw = False
+176.7806 	EXP 	fixation: autoDraw = True
+177.2650 	EXP 	New trial (rep=10, index=0): None
+177.2815 	EXP 	fixation: autoDraw = False
+177.2815 	EXP 	stim_delivery_text: autoDraw = True
+177.2815 	EXP 	shock_counter_text: autoDraw = True
+188.0688 	DATA 	Keypress: space
+188.5028 	EXP 	stim_delivery_text: autoDraw = False
+188.5028 	EXP 	shock_counter_text: autoDraw = False
+188.5028 	EXP 	rating_input_text: autoDraw = True
+188.5028 	EXP 	rating_shock_counter: autoDraw = True
+191.2582 	DATA 	Keypress: lshift
+192.0097 	DATA 	Keypress: 2
+192.0261 	EXP 	rating_input_text: autoDraw = False
+192.0261 	EXP 	rating_shock_counter: autoDraw = False
+192.0261 	EXP 	fixation: autoDraw = True
+192.5105 	EXP 	New trial (rep=11, index=0): None
+192.5271 	EXP 	fixation: autoDraw = False
+192.5271 	EXP 	stim_delivery_text: autoDraw = True
+192.5271 	EXP 	shock_counter_text: autoDraw = True
+203.7319 	DATA 	Keypress: space
+204.1658 	EXP 	stim_delivery_text: autoDraw = False
+204.1658 	EXP 	shock_counter_text: autoDraw = False
+204.1658 	EXP 	rating_input_text: autoDraw = True
+204.1658 	EXP 	rating_shock_counter: autoDraw = True
+207.5057 	DATA 	Keypress: lshift
+208.0233 	DATA 	Keypress: 7
+208.0398 	EXP 	rating_input_text: autoDraw = False
+208.0398 	EXP 	rating_shock_counter: autoDraw = False
+208.0398 	EXP 	fixation: autoDraw = True
+208.5243 	EXP 	New trial (rep=12, index=0): None
+208.5407 	EXP 	fixation: autoDraw = False
+208.5407 	EXP 	stim_delivery_text: autoDraw = True
+208.5407 	EXP 	shock_counter_text: autoDraw = True
+216.8400 	DATA 	Keypress: space
+217.2740 	EXP 	stim_delivery_text: autoDraw = False
+217.2740 	EXP 	shock_counter_text: autoDraw = False
+217.2740 	EXP 	rating_input_text: autoDraw = True
+217.2740 	EXP 	rating_shock_counter: autoDraw = True
+221.0146 	DATA 	Keypress: lshift
+221.5322 	DATA 	Keypress: 7
+221.5487 	EXP 	rating_input_text: autoDraw = False
+221.5487 	EXP 	rating_shock_counter: autoDraw = False
+221.5487 	EXP 	fixation: autoDraw = True
+222.0496 	EXP 	fixation: autoDraw = False
+222.0496 	EXP 	fixation: autoDraw = True
+222.5673 	EXP 	fixation: autoDraw = False
+222.5673 	EXP 	final_shock_text_2: autoDraw = True
+250.8878 	DATA 	Keypress: space
+250.9043 	EXP 	final_shock_text_2: autoDraw = False
+250.9043 	EXP 	final_shock_text: autoDraw = True
+272.0947 	DATA 	Keypress: space
+288.6093 	DATA 	Keypress: escape
+288.8168 	EXP 	window1: mouseVisible = True
